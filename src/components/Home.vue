@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{msg}}</h1>
-  </div>
+  <v-container>
+    <h1>{{ msg }}</h1>
+  </v-container>
 </template>
 
 <script>
 export default {
-  name: 'Hello',
+  name: 'Home',
   data () {
     return {
       msg: 'Welcome to RLJ Web page!'
@@ -15,7 +15,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>
